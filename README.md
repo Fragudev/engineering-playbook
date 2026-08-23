@@ -7,10 +7,11 @@ A public, continuously evolving knowledge base covering software architecture, d
 systems, and AI engineering — written as the reasoning of an experienced engineer preparing for
 Staff/Principal-level responsibilities and interviews, not as tutorial content.
 
-> **Status: Phase 4 complete.** Architecture (3), distributed systems (4), messaging (3),
-> resilience (3), databases (3), observability (2), AI engineering (3), and the URL shortener
-> system design exercise are done. See each category's `README.md` for what's planned and in what
-> phase.
+> **Status: Phase 5 complete — all planned phases done.** 19 topics across architecture, distributed
+> systems, messaging, resilience, databases, observability, and AI engineering, plus two full
+> system design exercises (URL shortener, notification system). Every topic has passed a quality
+> pass against `CONTRIBUTING.md`'s checklist. See each category's `README.md` for what's still
+> backlog beyond this initial scope.
 
 ---
 
@@ -60,11 +61,16 @@ answers a stated question, every trade-off names a deciding signal.
 
 ## Roadmap
 
-Phase 0 (this state) → Architecture + first system design exercise → Distributed systems /
-messaging / resilience → Databases / observability → AI engineering → polish + second system
-design exercise. Full phase breakdown lives in the working plan used to bootstrap this repo,
-`03-engineering-playbook-PLAN.md`, kept outside this repository alongside the other two portfolio
-specs.
+Phases 0–5 are complete: scaffolding → architecture + first system design exercise → distributed
+systems / messaging / resilience → databases / observability → AI engineering → quality pass +
+second system design exercise. Full phase breakdown lives in the working plan used to bootstrap
+this repo, `03-engineering-playbook-PLAN.md`, kept outside this repository alongside the other two
+portfolio specs.
+
+Beyond this initial scope, each category's `README.md` lists remaining backlog topics (e.g.
+sharding, CQRS, sagas, MCP, evaluation) — not committed to a phase, added opportunistically as the
+sibling repos (`ai-engineering-lab`, `distributed-systems-playground`) grow and give this repo new
+implementations to reference.
 
 ## License
 

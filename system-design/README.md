@@ -6,7 +6,7 @@ in full — no exercise ships partial.
 | Exercise | File | Status |
 |---|---|---|
 | URL shortener | [`url-shortener.md`](url-shortener.md) | Done |
-| Notification system | — | Backlog |
+| Notification system | [`notification-system.md`](notification-system.md) | Done |
 | Order processing | — | Backlog |
 | Chat system | — | Backlog |
 | Document processing | — | Backlog |
