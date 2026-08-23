@@ -6,9 +6,9 @@ A public, continuously evolving knowledge base covering software architecture, d
 systems, and AI engineering — written as the reasoning of an experienced engineer preparing for
 Staff/Principal-level responsibilities and interviews, not as tutorial content.
 
-> **Status: Phase 0 (scaffolding).** Structure, templates, and the first two ADRs are in place.
-> Topic content has not been written yet — see each category's `README.md` for what's planned and
-> in what phase.
+> **Status: Phase 1 in progress.** Architecture has its first three topics and the URL shortener
+> system design exercise is complete. See each category's `README.md` for what's planned and in
+> what phase.
 
 ---
 

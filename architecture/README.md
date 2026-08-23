@@ -5,9 +5,9 @@ not to.
 
 | Topic | File | Status |
 |---|---|---|
-| Modular monolith vs microservices | `modular-monolith-vs-microservices.md` | Planned — Phase 1 |
-| Coupling and cohesion | `coupling-and-cohesion.md` | Planned — Phase 1 |
-| Hexagonal / clean architecture | `hexagonal-clean-architecture.md` | Planned — Phase 1 |
+| Modular monolith vs microservices | [`modular-monolith-vs-microservices.md`](modular-monolith-vs-microservices.md) | Done |
+| Coupling and cohesion | [`coupling-and-cohesion.md`](coupling-and-cohesion.md) | Done |
+| Hexagonal / clean architecture | [`hexagonal-clean-architecture.md`](hexagonal-clean-architecture.md) | Done |
 | API-first architecture | — | Backlog |
 | Domain boundaries | — | Backlog |
 | Dependency management | — | Backlog |

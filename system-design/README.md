@@ -5,7 +5,7 @@ in full — no exercise ships partial.
 
 | Exercise | File | Status |
 |---|---|---|
-| URL shortener | `url-shortener.md` | Planned — Phase 1 |
+| URL shortener | [`url-shortener.md`](url-shortener.md) | Done |
 | Notification system | — | Backlog |
 | Order processing | — | Backlog |
 | Chat system | — | Backlog |
