@@ -5,10 +5,10 @@ that transition.
 
 | Topic | File | Status |
 |---|---|---|
-| CAP theorem | `cap-theorem.md` | Planned — Phase 2 |
-| Replication | `replication.md` | Planned — Phase 2 |
-| Idempotency | `idempotency.md` | Planned — Phase 2 |
-| Leader election | `leader-election.md` | Planned — Phase 2 |
+| CAP theorem | [`cap-theorem.md`](cap-theorem.md) | Done |
+| Replication | [`replication.md`](replication.md) | Done |
+| Idempotency | [`idempotency.md`](idempotency.md) | Done |
+| Leader election | [`leader-election.md`](leader-election.md) | Done |
 | Scalability | — | Backlog |
 | Availability | — | Backlog |
 | Consistency | — | Backlog |

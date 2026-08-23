@@ -5,9 +5,9 @@ consumer fails mid-message.
 
 | Topic | File | Status |
 |---|---|---|
-| Delivery semantics (at-most/at-least/exactly-once) | `delivery-semantics.md` | Planned — Phase 2 |
-| Transactional outbox | `outbox-pattern.md` | Planned — Phase 2 |
-| Consumer groups | `consumer-groups.md` | Planned — Phase 2 |
+| Delivery semantics (at-most/at-least/exactly-once) | [`delivery-semantics.md`](delivery-semantics.md) | Done |
+| Transactional outbox | [`outbox-pattern.md`](outbox-pattern.md) | Done |
+| Consumer groups | [`consumer-groups.md`](consumer-groups.md) | Done |
 | Kafka | — | Backlog |
 | RabbitMQ | — | Backlog |
 | Ordering | — | Backlog |
