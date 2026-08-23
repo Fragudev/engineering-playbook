@@ -5,9 +5,9 @@ unreliable dependency.
 
 | Topic | File | Status |
 |---|---|---|
-| RAG architecture | `rag-architecture.md` | Planned — Phase 4 |
-| Structured output and tool-calling reliability | `structured-output-and-tool-calling-reliability.md` | Planned — Phase 4 |
-| Prompt injection | `prompt-injection.md` | Planned — Phase 4 |
+| RAG architecture | [`rag-architecture.md`](rag-architecture.md) | Done |
+| Structured output and tool-calling reliability | [`structured-output-and-tool-calling-reliability.md`](structured-output-and-tool-calling-reliability.md) | Done |
+| Prompt injection | [`prompt-injection.md`](prompt-injection.md) | Done |
 | LLM application architecture | — | Backlog |
 | Embeddings | — | Backlog |
 | Retrieval / reranking | — | Backlog |
