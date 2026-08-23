@@ -1,0 +1,23 @@
+system-design/notification-system.md
+  s_8ca842344072f2::t_691a95566c6beb 1-223
+README.md
+  s_8ca842344072f2::t_8009cc45758afd 10-14,64-73
+system-design/README.md
+  s_8ca842344072f2::t_3182ffa3bb6676 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ad4f1d5da3d10b035108da80ab912387b4e04499",
+  "prompts": {},
+  "sessions": {
+    "s_8ca842344072f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4db8a879-00ae-4699-b479-6c9220e502b3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
