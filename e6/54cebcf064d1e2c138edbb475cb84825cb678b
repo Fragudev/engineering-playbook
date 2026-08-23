@@ -1,0 +1,33 @@
+.github/workflows/lint.yml
+  s_8ca842344072f2::t_1f46f226cd7b05 27-29
+CONTRIBUTING.md
+  s_404c5ea073f7bb::t_a29d5c413285f0 48-68
+scripts/verify-content.js
+  s_404c5ea073f7bb::t_7ad9ec23776654 1-205
+README.md
+  s_8ca842344072f2::t_37f941e5b8d0b5 62-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "e654cebcf064d1e2c138edbb475cb84825cb678b",
+  "prompts": {},
+  "sessions": {
+    "s_404c5ea073f7bb": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a02a7a-a0bf-739c-a4d3-c3a3c3ca3fa5",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_8ca842344072f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4db8a879-00ae-4699-b479-6c9220e502b3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
