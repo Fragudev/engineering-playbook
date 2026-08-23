@@ -1,0 +1,11 @@
+# See https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+default: true
+
+# Long lines are fine in prose; tables and code fences already exempt.
+MD013: false
+
+# Templates intentionally have empty sections to be filled in per topic.
+MD041: false
+
+# Allow inline HTML sparingly (e.g. line-break spans in tables) if ever needed.
+MD033: false

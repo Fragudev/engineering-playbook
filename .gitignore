@@ -1,0 +1,10 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editors ---
+.vscode/
+.idea/
+
+# --- Node (markdownlint-cli / markdown-link-check via npx) ---
+node_modules/
