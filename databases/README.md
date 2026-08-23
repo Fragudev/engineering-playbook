@@ -5,9 +5,9 @@ table on a single machine.
 
 | Topic | File | Status |
 |---|---|---|
-| Isolation levels | `isolation-levels.md` | Planned — Phase 3 |
-| Optimistic vs pessimistic locking | `optimistic-vs-pessimistic-locking.md` | Planned — Phase 3 |
-| Indexing trade-offs | `indexing-trade-offs.md` | Planned — Phase 3 |
+| Isolation levels | [`isolation-levels.md`](isolation-levels.md) | Done |
+| Optimistic vs pessimistic locking | [`optimistic-vs-pessimistic-locking.md`](optimistic-vs-pessimistic-locking.md) | Done |
+| Indexing trade-offs | [`indexing-trade-offs.md`](indexing-trade-offs.md) | Done |
 | Relational vs NoSQL | — | Backlog |
 | Transactions | — | Backlog |
 | Replication | — | Backlog |

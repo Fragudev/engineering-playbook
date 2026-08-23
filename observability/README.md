@@ -4,8 +4,8 @@ What it takes to answer "what is this system doing right now" without guessing.
 
 | Topic | File | Status |
 |---|---|---|
-| Correlation IDs | `correlation-ids.md` | Planned — Phase 3 |
-| SLOs vs SLIs | `slos-vs-slis.md` | Planned — Phase 3 |
+| Correlation IDs | [`correlation-ids.md`](correlation-ids.md) | Done |
+| SLOs vs SLIs | [`slos-vs-slis.md`](slos-vs-slis.md) | Done |
 | Logs | — | Backlog |
 | Metrics | — | Backlog |
 | Traces | — | Backlog |

@@ -7,9 +7,9 @@ A public, continuously evolving knowledge base covering software architecture, d
 systems, and AI engineering — written as the reasoning of an experienced engineer preparing for
 Staff/Principal-level responsibilities and interviews, not as tutorial content.
 
-> **Status: Phase 2 complete.** Architecture (3 topics), distributed systems (4), messaging (3),
-> resilience (3), and the URL shortener system design exercise are done. See each category's
-> `README.md` for what's planned and in what phase.
+> **Status: Phase 3 complete.** Architecture (3), distributed systems (4), messaging (3),
+> resilience (3), databases (3), observability (2), and the URL shortener system design exercise
+> are done. See each category's `README.md` for what's planned and in what phase.
 
 ---
 
