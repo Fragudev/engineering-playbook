@@ -45,3 +45,24 @@ enforce it — because on a quality pass, that reviewer is the author revisiting
 
 One decision per ADR, numbered sequentially in `adr/`, never edited to reverse a decision — a
 changed decision gets a new ADR that supersedes the old one, so the history stays legible.
+
+## Automated checks
+
+This repo has no application code, so "tests" here means three things, run on every push and PR by
+`.github/workflows/lint.yml`:
+
+| Layer | What it checks | Tool |
+|---|---|---|
+| Unit — one file in isolation | Every topic/ADR/system-design file has all required sections from its template, in order; filenames follow the naming convention | `scripts/verify-content.js` |
+| Integration — adjacent pieces together | Every content file is linked from its category's `README.md`; every internal relative link resolves to a real file; every external link resolves | `scripts/verify-content.js` + `markdown-link-check` |
+| E2E — the reader's actual journey | Every "Done" file is reachable by following links starting from the root `README.md` — no page a reader could never navigate to | `scripts/verify-content.js` |
+
+Run it locally before pushing (no install step — plain Node, no dependencies):
+
+```bash
+node scripts/verify-content.js
+```
+
+A failing check names the exact file and the exact problem (a missing section, an out-of-sync
+index, a broken link, an unreachable page) — treat a red run here the same as a failing test suite
+elsewhere: fix the content, don't work around the check.

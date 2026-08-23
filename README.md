@@ -59,6 +59,11 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full checklist (language, lengt
 rigor, diagram rules). In short: English, concise, opinionated where justified, every diagram
 answers a stated question, every trade-off names a deciding signal.
 
+Every push and PR runs `scripts/verify-content.js` in CI — the closest equivalent this repo has to
+a unit/integration/e2e test suite, checking template conformance, index consistency, and that every
+page is actually reachable from this README. See CONTRIBUTING's
+["Automated checks"](CONTRIBUTING.md#automated-checks) section for what each layer covers.
+
 ## Roadmap
 
 Phases 0–5 are complete: scaffolding → architecture + first system design exercise → distributed
