@@ -1,0 +1,53 @@
+README.md
+  s_0caa17a0ea0445::t_a5faa9317e60fb 10-12
+resilience/README.md
+  s_0caa17a0ea0445::t_26e2c9d6b68b69 7-9
+distributed-systems/README.md
+  s_24993ec0f083a4::t_fdd912bf6cf377 8-11
+distributed-systems/cap-theorem.md
+  s_24993ec0f083a4::t_9290ea37ade3d0 1-106
+distributed-systems/idempotency.md
+  s_24993ec0f083a4::t_6159d2655ab85a 1-109
+distributed-systems/leader-election.md
+  s_24993ec0f083a4::t_8208184ad15933 1-107
+distributed-systems/replication.md
+  s_24993ec0f083a4::t_afe420e8cd9589 1-111
+messaging/README.md
+  s_24993ec0f083a4::t_036b7c7b988276 8-10
+messaging/consumer-groups.md
+  s_24993ec0f083a4::t_f1bad9b34d8e5e 1-111
+messaging/delivery-semantics.md
+  s_24993ec0f083a4::t_0a1eeba3292c34 1-105
+messaging/outbox-pattern.md
+  s_24993ec0f083a4::t_53d80ee87494a7 1-106
+resilience/backpressure.md
+  s_24993ec0f083a4::t_52f26eadf90cd9 1-100
+resilience/circuit-breaker.md
+  s_24993ec0f083a4::t_2ae1be0a8eae51 1-107
+resilience/timeout-and-retry-budgets.md
+  s_24993ec0f083a4::t_e55d368d7f4a8d 1-121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "16014ec2a8a5eea4ffe9f69e5fab9cddb1b5d76c",
+  "prompts": {},
+  "sessions": {
+    "s_0caa17a0ea0445": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a02e4f-59d9-7af9-ace9-70494a8daaac",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_24993ec0f083a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f88a8ec-e8f2-4c12-b96a-31fd4abf292b",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
