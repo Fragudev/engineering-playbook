@@ -1,0 +1,33 @@
+databases/isolation-levels.md
+  s_8ca842344072f2::t_085f1255cef0fd 1-112
+README.md
+  s_8ca842344072f2::t_04efa5951601a3 10-12
+databases/README.md
+  s_8ca842344072f2::t_b105897e2adcd8 8-10
+databases/indexing-trade-offs.md
+  s_8ca842344072f2::t_0af41509722f62 1-105
+databases/optimistic-vs-pessimistic-locking.md
+  s_8ca842344072f2::t_20b5871393879a 1-106
+observability/README.md
+  s_8ca842344072f2::t_6e7b2c1d105a9b 7-8
+observability/correlation-ids.md
+  s_8ca842344072f2::t_87d0d2602a70aa 1-108
+observability/slos-vs-slis.md
+  s_8ca842344072f2::t_84c8e673bf922d 1-105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "67d69bbd0d432a82a4448702ad61cdde70c3d5aa",
+  "prompts": {},
+  "sessions": {
+    "s_8ca842344072f2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4db8a879-00ae-4699-b479-6c9220e502b3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
