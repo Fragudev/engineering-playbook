@@ -102,5 +102,10 @@ COMMIT;
 
 ## Further experiments
 
-`distributed-systems-playground` (pending — not yet created) plans a worked outbox example with a
-polling relay and a CDC-based relay side by side, measuring publish latency and DB load for each.
+`distributed-systems-playground`'s `outbox` example implements the polling relay for real:
+[its README](https://github.com/Fragudev/distributed-systems-playground/blob/f893b1568b28f1ecab1babdc35292dcdfb0f49b0/examples/outbox/README.md)
+proves the naive dual-write's exact failure mode (`NaiveDualWriteFailureTest` — the order commits,
+the event is gone, with no outbox row to recover it), then proves the fix survives a relay dying
+mid-batch (`OutboxFailureTest`). [ADR-0003](https://github.com/Fragudev/distributed-systems-playground/blob/f893b1568b28f1ecab1babdc35292dcdfb0f49b0/docs/adr/0003-transactional-outbox.md)
+covers CDC and 2PC as alternatives considered and rejected for this example, not built alongside the
+polling relay for a side-by-side comparison.

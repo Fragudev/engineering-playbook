@@ -31,7 +31,7 @@ explains why they were built that way.
 | Repo | Role |
 |---|---|
 | [`ai-engineering-lab`](https://github.com/Fragudev/ai-engineering-lab) | Production-oriented AI engineering implementation (RAG, tool calling, MCP, agentic workflows) |
-| `distributed-systems-playground` | Distributed-systems implementations and failure-mode experiments (not yet created) |
+| [`distributed-systems-playground`](https://github.com/Fragudev/distributed-systems-playground) | Distributed-systems implementations and failure-mode experiments (Kafka/RabbitMQ, outbox, sagas, resilience) |
 | `engineering-playbook` (this repo) | Concepts, decisions, and interview-oriented reasoning |
 
 This repo does not duplicate runnable code from the other two. Where a topic has a working
@@ -73,10 +73,9 @@ second system design exercise. Full phase breakdown lives in the working plan us
 this repo, `03-engineering-playbook-PLAN.md`, kept outside this repository alongside the other two
 portfolio specs.
 
-Beyond this initial scope, each category's `README.md` lists remaining backlog topics (e.g.
-sharding, CQRS, sagas, MCP, evaluation) — not committed to a phase, added opportunistically as the
-sibling repos (`ai-engineering-lab`, `distributed-systems-playground`) grow and give this repo new
-implementations to reference.
+Every topic originally scoped across all eight categories is now written — see each category's
+`README.md` for the full status table. Further topics, if the sibling repos' own scope grows enough
+to justify new ones, get added opportunistically rather than committed to a phase.
 
 ## License
 
