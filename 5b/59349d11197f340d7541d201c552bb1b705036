@@ -1,0 +1,47 @@
+messaging/kafka.md
+  s_b9cd4f024caca2::t_f521d91191cbef 1-110
+messaging/ordering.md
+  s_404c5ea073f7bb::t_3c8f07feaa00c5 1-126
+messaging/rabbitmq.md
+  s_222fea55b82233::t_e96934413bc08d 1-128
+README.md
+  s_222fea55b82233::t_adf7680eef9300 10
+messaging/README.md
+  s_222fea55b82233::t_2218c1cfc16e27 11-15,18-20
+messaging/dead-letter-queues.md
+  s_222fea55b82233::t_3d9d09b8bf773e 1-114
+messaging/retries.md
+  s_222fea55b82233::t_8f80c5c7268226 1-124
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "5b59349d11197f340d7541d201c552bb1b705036",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_404c5ea073f7bb": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a02a7a-a0bf-739c-a4d3-c3a3c3ca3fa5",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_b9cd4f024caca2": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a033d8-2deb-7fae-80e5-ed3f9633c7fa",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
