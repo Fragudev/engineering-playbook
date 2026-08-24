@@ -8,12 +8,12 @@ table on a single machine.
 | Isolation levels | [`isolation-levels.md`](isolation-levels.md) | Done |
 | Optimistic vs pessimistic locking | [`optimistic-vs-pessimistic-locking.md`](optimistic-vs-pessimistic-locking.md) | Done |
 | Indexing trade-offs | [`indexing-trade-offs.md`](indexing-trade-offs.md) | Done |
-| Relational vs NoSQL | — | Backlog |
-| Transactions | — | Backlog |
-| Replication | — | Backlog |
-| Sharding | — | Backlog |
-| Read/write models (CQRS) | — | Backlog |
-| Caching | — | Backlog |
+| Relational vs NoSQL | [`relational-vs-nosql.md`](relational-vs-nosql.md) | Done |
+| Transactions | [`transactions.md`](transactions.md) | Done |
+| Replication | — | Covered in [`distributed-systems/replication.md`](../distributed-systems/replication.md) |
+| Sharding | [`sharding.md`](sharding.md) | Done |
+| Read/write models (CQRS) | [`cqrs.md`](cqrs.md) | Done |
+| Caching | [`caching.md`](caching.md) | Done |
 
 `ai-engineering-lab` uses PostgreSQL with pgvector under real transactional and concurrency
 constraints (ingestion pipeline, hybrid retrieval) — referenced as a case study where relevant.
