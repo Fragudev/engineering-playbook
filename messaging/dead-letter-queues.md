@@ -67,7 +67,8 @@ with a longer delay before the data is effectively lost to inattention instead o
 - **A DLQ nobody monitors.** The most common failure: the DLQ correctly isolates poison messages from
   blocking the main queue, but nothing alerts on its size or age, so messages accumulate
   indefinitely without anyone noticing — the isolation worked exactly as designed and the outcome is
-  still silent, permanent data loss in practice.
+  still silent, permanent data loss in practice. See [alerting](../observability/alerting.md) for
+  what makes a DLQ-depth alert actually actionable rather than noise.
 - **Replaying without fixing the underlying cause.** Republishing a dead-lettered message without
   first understanding why it failed just moves the same failure back into the main queue's retry
   cycle — if the root cause (a bug, a permanently missing downstream) hasn't changed, the message
