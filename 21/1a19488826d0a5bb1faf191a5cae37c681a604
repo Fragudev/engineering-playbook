@@ -1,0 +1,21 @@
+README.md
+  s_222fea55b82233::t_f271e05d4ebf10 34,76-78
+messaging/outbox-pattern.md
+  s_222fea55b82233::t_78434c5c09a100 105-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "211a19488826d0a5bb1faf191a5cae37c681a604",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
