@@ -1,0 +1,45 @@
+architecture/README.md
+  s_53171915854add::t_0e21c2fe5190bc 11-14
+architecture/domain-boundaries.md
+  s_940899714ef6dc::t_819e362e9adb90 1-125
+README.md
+  s_222fea55b82233::t_28dfb3727760f8 10
+architecture/api-first-architecture.md
+  s_222fea55b82233::t_80b1e5defee56f 1-120
+architecture/dependency-management.md
+  s_222fea55b82233::t_90674169ed8d1f 1-122
+architecture/evolutionary-architecture.md
+  s_222fea55b82233::t_08eb2f938f13f8 1-128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "4c83416955a5a1cbf032fe683765977cb857045d",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_53171915854add": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a03474-8dd0-781d-84e6-fb47f2030584",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_940899714ef6dc": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a03472-a4e2-7d13-8056-b39d608f5113",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
