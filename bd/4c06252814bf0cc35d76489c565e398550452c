@@ -1,0 +1,37 @@
+README.md
+  s_222fea55b82233::t_8a496bfe974b4a 10
+distributed-systems/README.md
+  s_222fea55b82233::t_638edc50ed3d50 12-18,22-24
+distributed-systems/availability.md
+  s_222fea55b82233::t_2f40aa418fb990 1-123
+distributed-systems/consistency.md
+  s_222fea55b82233::t_befbcd284ee9f4 1-118
+distributed-systems/distributed-locks.md
+  s_222fea55b82233::t_0a2e37f977dc8b 1-131
+distributed-systems/event-driven-architecture.md
+  s_222fea55b82233::t_44e1d335055e1d 1-124
+distributed-systems/eventual-consistency.md
+  s_222fea55b82233::t_7872952d3a04ce 1-126
+distributed-systems/partitioning.md
+  s_222fea55b82233::t_48e27eeb0c7e09 1-115
+distributed-systems/replication.md
+  s_222fea55b82233::t_e35fe4c4d12eb6 109-112
+distributed-systems/scalability.md
+  s_222fea55b82233::t_3c4fb6a20b8905 1-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "bd4c06252814bf0cc35d76489c565e398550452c",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
