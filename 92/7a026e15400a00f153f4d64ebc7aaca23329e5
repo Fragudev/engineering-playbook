@@ -1,0 +1,35 @@
+resilience/graceful-degradation.md
+  s_f6c2719e97e037::t_2fa88564954448 1-122
+README.md
+  s_222fea55b82233::t_5a6019d871b4f8 10
+resilience/README.md
+  s_222fea55b82233::t_8826b1065e6b5f 10-12,14-17
+resilience/bulkhead.md
+  s_222fea55b82233::t_3d3250413e820c 1-126
+resilience/rate-limiting.md
+  s_222fea55b82233::t_df1e3cfc1dc8e3 1-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "927a026e15400a00f153f4d64ebc7aaca23329e5",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_f6c2719e97e037": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d71cd04a-2491-4b09-8bc2-0e5b3c8eed55",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
