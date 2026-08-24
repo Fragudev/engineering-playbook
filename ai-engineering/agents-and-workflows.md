@@ -71,6 +71,7 @@ from outside the model to be resumable at all.
   breaking a fixed step index, or overwrite the first, losing its audit trail? Keeping the pipeline
   strictly linear — bounding the retry *inside* the stage that needs it — trades the ability to
   retry across a stage boundary for a persistence model that stays simple to resume and inspect.
+
 ## Failure modes
 
 - **LLM calls where a lookup would do.** Routing a mechanical check — does citation marker `[3]`
