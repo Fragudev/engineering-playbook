@@ -106,6 +106,7 @@ synchronous_standby_names = 'follower-1'
 
 ## Further experiments
 
-`distributed-systems-playground` (pending — not yet created) is planned to include a
-failure-injection example that kills a leader mid-write and shows exactly which writes survive
-under sync vs async replication.
+[`distributed-systems-playground`](https://github.com/Fragudev/distributed-systems-playground) now
+exists, but a failure-injection example that kills a leader mid-write and shows exactly which writes
+survive under sync vs async replication isn't wired up yet — `scripts/inject-failure.sh` is scaffolded
+per-example but not yet implemented for this scenario. Still a real, named gap, not a silent one.
