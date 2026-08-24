@@ -7,9 +7,11 @@ Patterns for surviving a dependency's bad day without having your own.
 | Circuit breaker | [`circuit-breaker.md`](circuit-breaker.md) | Done |
 | Backpressure | [`backpressure.md`](backpressure.md) | Done |
 | Timeout and retry budgets | [`timeout-and-retry-budgets.md`](timeout-and-retry-budgets.md) | Done |
-| Bulkhead | — | Backlog |
-| Rate limiting | — | Backlog |
-| Graceful degradation | — | Backlog |
+| Bulkhead | [`bulkhead.md`](bulkhead.md) | Done |
+| Rate limiting | [`rate-limiting.md`](rate-limiting.md) | Done |
+| Graceful degradation | [`graceful-degradation.md`](graceful-degradation.md) | Done |
 
-`distributed-systems-playground` (pending — not yet created) will host runnable failure-injection
-examples for these patterns.
+[`distributed-systems-playground`](https://github.com/Fragudev/distributed-systems-playground)
+hosts a runnable failure-injection example (`examples/resilience`) combining bulkhead, circuit
+breaker, and graceful degradation over a real simulated dependency, with tests proving each pattern
+actually engages under load.
