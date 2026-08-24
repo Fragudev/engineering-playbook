@@ -8,11 +8,11 @@ unreliable dependency.
 | RAG architecture | [`rag-architecture.md`](rag-architecture.md) | Done |
 | Structured output and tool-calling reliability | [`structured-output-and-tool-calling-reliability.md`](structured-output-and-tool-calling-reliability.md) | Done |
 | Prompt injection | [`prompt-injection.md`](prompt-injection.md) | Done |
+| Agents / workflows | [`agents-and-workflows.md`](agents-and-workflows.md) | Done |
+| MCP | [`mcp.md`](mcp.md) | Done |
 | LLM application architecture | — | Backlog |
 | Embeddings | — | Backlog |
 | Retrieval / reranking | — | Backlog |
-| Agents / workflows | — | Backlog |
-| MCP | — | Backlog |
 | Evaluation | — | Backlog |
 | Hallucination mitigation | — | Backlog |
 | AI security | — | Backlog |
