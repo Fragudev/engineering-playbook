@@ -1,0 +1,33 @@
+ai-engineering/mcp.md
+  s_f6c2719e97e037::t_5ddc7401850462 1-136
+README.md
+  s_222fea55b82233::t_71f209cce43b9d 10
+ai-engineering/README.md
+  s_222fea55b82233::t_33cb96e0f9cf3a 11-12
+ai-engineering/agents-and-workflows.md
+  s_222fea55b82233::t_d0734a41a3dc90 1-131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "a5468ffa63224891e01ab8da9d0abb496e1cce55",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_f6c2719e97e037": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d71cd04a-2491-4b09-8bc2-0e5b3c8eed55",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
