@@ -1,0 +1,35 @@
+observability/logs.md
+  s_53171915854add::t_388b91def41031 1-123
+README.md
+  s_222fea55b82233::t_e8852cebd4c4bf 10
+messaging/dead-letter-queues.md
+  s_222fea55b82233::t_37b7797a0a4a26 70-71
+observability/README.md
+  s_222fea55b82233::t_7e64ef472bc548 11-12
+observability/alerting.md
+  s_222fea55b82233::t_f302c3c3e63cb6 1-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "e6b6cc471037c013935f38664cd244cf146faec5",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_53171915854add": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a03474-8dd0-781d-84e6-fb47f2030584",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
