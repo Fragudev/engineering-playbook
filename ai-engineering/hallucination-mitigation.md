@@ -127,7 +127,7 @@ than a false abstention, while staying clear of the off-topic cluster.
 ## Further experiments
 
 `ai-engineering-lab` measured and recalibrated exactly this:
-[ADR-0013](https://github.com/Fragudev/ai-engineering-lab/blob/ec822bca9df3aee3dc6857705dcddd171a669211/docs/adr/0013-rag-abstention-threshold.md)
+[ADR-0013](https://github.com/Fragudev/ai-engineering-lab/blob/e0494f782085a4a02eaefcf9052aab9e53749fe1/docs/adr/0013-rag-abstention-threshold.md)
 covers discovering, via a real live run against `bge-m3`, that an unmeasured 0.6 threshold made the
 pipeline abstain on every answerable query — and the real measurement (answerable queries clustering
 0.30–0.47, off-topic controls 0.60–0.69) that recalibrated it to 0.55, including the finding that the
