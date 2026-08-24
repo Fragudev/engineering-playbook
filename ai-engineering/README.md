@@ -10,10 +10,10 @@ unreliable dependency.
 | Prompt injection | [`prompt-injection.md`](prompt-injection.md) | Done |
 | Agents / workflows | [`agents-and-workflows.md`](agents-and-workflows.md) | Done |
 | MCP | [`mcp.md`](mcp.md) | Done |
+| Evaluation | [`evaluation.md`](evaluation.md) | Done |
 | LLM application architecture | — | Backlog |
 | Embeddings | — | Backlog |
 | Retrieval / reranking | — | Backlog |
-| Evaluation | — | Backlog |
 | Hallucination mitigation | — | Backlog |
 | AI security | — | Backlog |
 | Cost/latency trade-offs | — | Backlog |

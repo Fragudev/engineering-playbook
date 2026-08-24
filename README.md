@@ -7,7 +7,7 @@ A public, continuously evolving knowledge base covering software architecture, d
 systems, and AI engineering — written as the reasoning of an experienced engineer preparing for
 Staff/Principal-level responsibilities and interviews, not as tutorial content.
 
-> **Status: Phase 5 complete — all planned phases done.** 21 topics across architecture, distributed
+> **Status: Phase 5 complete — all planned phases done.** 24 topics across architecture, distributed
 > systems, messaging, resilience, databases, observability, and AI engineering, plus two full
 > system design exercises (URL shortener, notification system). Every topic has passed a quality
 > pass against `CONTRIBUTING.md`'s checklist. See each category's `README.md` for what's still
