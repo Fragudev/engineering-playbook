@@ -1,0 +1,41 @@
+README.md
+  s_41f3a804de3ae1::t_4c43695dd313f3 10
+ai-engineering/README.md
+  s_41f3a804de3ae1::t_38413858e79684 14-19
+ai-engineering/cost-latency-tradeoffs.md
+  s_41f3a804de3ae1::t_7464d23d56c49d 1-124
+ai-engineering/hallucination-mitigation.md
+  s_41f3a804de3ae1::t_81ae1ab58072bc 1-135
+ai-engineering/ai-security.md
+  s_222fea55b82233::t_c7f3aaa19ed7ca 1-130
+ai-engineering/embeddings.md
+  s_222fea55b82233::t_8dea52a174ed62 1-133
+ai-engineering/llm-application-architecture.md
+  s_222fea55b82233::t_b273918821c121 1-126
+ai-engineering/retrieval-reranking.md
+  s_222fea55b82233::t_95a3bb5511f3be 1-128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "2681eaa03d77cfa6b46314b25bcef06ae9349656",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_41f3a804de3ae1": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0346c-4176-7a15-905c-d39f20f8cbc9",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
