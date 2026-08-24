@@ -1,0 +1,31 @@
+README.md
+  s_222fea55b82233::t_b6dbfdb7bd3f91 10
+databases/README.md
+  s_222fea55b82233::t_3cedfa169f9ae0 11-16
+databases/caching.md
+  s_222fea55b82233::t_72b10a0faa874a 1-126
+databases/cqrs.md
+  s_222fea55b82233::t_f08e730ab3fe61 1-119
+databases/relational-vs-nosql.md
+  s_222fea55b82233::t_6f3a6de88f6333 1-123
+databases/sharding.md
+  s_222fea55b82233::t_0c8cf634929f0e 1-121
+databases/transactions.md
+  s_222fea55b82233::t_c53b1608caee12 1-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "103617b6ee22ff4f23af3a258fb406bf93affa7e",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
