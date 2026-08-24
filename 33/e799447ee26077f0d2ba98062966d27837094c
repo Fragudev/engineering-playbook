@@ -1,0 +1,31 @@
+README.md
+  s_222fea55b82233::t_018da507e3ff2e 10-15
+system-design/README.md
+  s_222fea55b82233::t_bbaaeda67a897c 10-14
+system-design/ai-knowledge-assistant.md
+  s_222fea55b82233::t_0545ffc59649b1 1-238
+system-design/chat-system.md
+  s_222fea55b82233::t_6a0e1098cbfc30 1-229
+system-design/document-processing.md
+  s_222fea55b82233::t_2a00b2832dfb73 1-226
+system-design/event-ingestion-platform.md
+  s_222fea55b82233::t_f65367298afbc3 1-221
+system-design/order-processing.md
+  s_222fea55b82233::t_409d94c0623e25 1-220
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "33e799447ee26077f0d2ba98062966d27837094c",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
