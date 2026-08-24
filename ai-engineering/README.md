@@ -11,12 +11,12 @@ unreliable dependency.
 | Agents / workflows | [`agents-and-workflows.md`](agents-and-workflows.md) | Done |
 | MCP | [`mcp.md`](mcp.md) | Done |
 | Evaluation | [`evaluation.md`](evaluation.md) | Done |
-| LLM application architecture | — | Backlog |
-| Embeddings | — | Backlog |
-| Retrieval / reranking | — | Backlog |
-| Hallucination mitigation | — | Backlog |
-| AI security | — | Backlog |
-| Cost/latency trade-offs | — | Backlog |
+| LLM application architecture | [`llm-application-architecture.md`](llm-application-architecture.md) | Done |
+| Embeddings | [`embeddings.md`](embeddings.md) | Done |
+| Retrieval / reranking | [`retrieval-reranking.md`](retrieval-reranking.md) | Done |
+| Hallucination mitigation | [`hallucination-mitigation.md`](hallucination-mitigation.md) | Done |
+| AI security | [`ai-security.md`](ai-security.md) | Done |
+| Cost/latency trade-offs | [`cost-latency-tradeoffs.md`](cost-latency-tradeoffs.md) | Done |
 
 This category has the deepest cross-linking to a sibling repo: `ai-engineering-lab` already
 implements hybrid RAG, schema-validated tool calling, MCP (client and server), an agentic workflow
