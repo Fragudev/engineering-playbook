@@ -54,7 +54,7 @@ This repo has no application code, so "tests" here means three things, run on ev
 | Layer | What it checks | Tool |
 |---|---|---|
 | Unit — one file in isolation | Every topic/ADR/system-design file has all required sections from its template, in order; filenames follow the naming convention | `scripts/verify-content.js` |
-| Integration — adjacent pieces together | Every content file is linked from its category's `README.md`; every internal relative link resolves to a real file; every external link resolves | `scripts/verify-content.js` + `markdown-link-check` |
+| Integration — adjacent pieces together | Every content file is linked from its category's `README.md`; every internal relative link resolves to a real file, and any `#anchor` on it resolves to a real heading in that file; every external link resolves | `scripts/verify-content.js` + `markdown-link-check` |
 | E2E — the reader's actual journey | Every "Done" file is reachable by following links starting from the root `README.md` — no page a reader could never navigate to | `scripts/verify-content.js` |
 
 Run it locally before pushing (no install step — plain Node, no dependencies):

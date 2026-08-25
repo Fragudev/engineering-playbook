@@ -7,12 +7,11 @@ A public, continuously evolving knowledge base covering software architecture, d
 systems, and AI engineering — written as the reasoning of an experienced engineer preparing for
 Staff/Principal-level responsibilities and interviews, not as tutorial content.
 
-> **Status: initial scope complete — every topic in every category's backlog is now written.** 56
+> **Status: initial scope complete — every topic in every category's backlog is now written.** 58
 > topics across architecture, distributed systems, messaging, resilience, databases, observability,
 > and AI engineering, plus seven full system design exercises. Every topic has passed a quality pass
-> against `CONTRIBUTING.md`'s checklist. See each category's `README.md` — `Replication` in
-> `databases/` is the one intentional exception, redirected to `distributed-systems/replication.md`
-> rather than duplicated.
+> against `CONTRIBUTING.md`'s checklist. Two index rows point at a topic that lives in another
+> category rather than duplicating it — see [ADR-0003](adr/0003-cross-reference-status.md).
 
 ---
 

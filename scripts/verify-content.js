@@ -63,6 +63,25 @@ function extractMarkdownLinks(text) {
   return links;
 }
 
+// GitHub's heading-anchor slug: lowercase, drop anything that isn't a letter/number/space/hyphen
+// (so backticks, periods and slashes vanish), then spaces to hyphens. Mirrors how a `#anchor`
+// link is actually resolved when the rendered page is viewed on GitHub.
+function headingSlugs(text) {
+  return new Set(
+    text
+      .split('\n')
+      .filter((line) => /^#{1,6} /.test(line))
+      .map((line) =>
+        line
+          .replace(/^#{1,6} /, '')
+          .trim()
+          .toLowerCase()
+          .replace(/[^a-z0-9 -]/g, '')
+          .replace(/ /g, '-')
+      )
+  );
+}
+
 // Asserts `expected` headers appear in `actual` headers, in the same relative order
 // (a subsequence check — allows extra headers, never allows a missing or reordered one).
 function assertHeaderSubsequence(actual, expected, label) {
@@ -146,15 +165,37 @@ function walkAllMarkdownFiles() {
 }
 
 function checkInternalLinksResolve() {
+  const slugCache = new Map();
+  const slugsFor = (relPath) => {
+    if (!slugCache.has(relPath)) slugCache.set(relPath, headingSlugs(readFile(relPath)));
+    return slugCache.get(relPath);
+  };
+
   for (const file of walkAllMarkdownFiles()) {
     const text = readFile(file);
     for (const link of extractMarkdownLinks(text)) {
-      if (link.startsWith('http') || link.startsWith('#')) continue;
-      const pathPart = link.split('#')[0];
-      if (!pathPart) continue;
+      if (link.startsWith('http')) continue;
+
+      const [pathPart, anchor] = link.split('#');
+
+      // A pure "#anchor" link points at a heading in this same file.
+      if (!pathPart) {
+        if (anchor && !slugsFor(file).has(anchor)) {
+          fail(`${file}: link "${link}" points at no heading in this file`);
+        }
+        continue;
+      }
+
       const resolved = path.normalize(path.join(path.dirname(file), pathPart));
       if (!fs.existsSync(path.join(ROOT, resolved))) {
         fail(`${file}: broken internal link "${link}" (resolved to ${resolved})`);
+        continue;
+      }
+      // The file exists — if the link also names an anchor, that heading has to exist too.
+      // A link to a real file with a stale "#section" lands the reader at the top of the page
+      // with no error, which is exactly the kind of silent drift this suite exists to catch.
+      if (anchor && resolved.endsWith('.md') && !slugsFor(resolved).has(anchor)) {
+        fail(`${file}: link "${link}" resolves to ${resolved} but it has no heading "#${anchor}"`);
       }
     }
   }

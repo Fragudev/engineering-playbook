@@ -16,7 +16,7 @@ that transition.
 | Distributed locks | [`distributed-locks.md`](distributed-locks.md) | Done |
 | Event-driven architecture | [`event-driven-architecture.md`](event-driven-architecture.md) | Done |
 | Eventual consistency | [`eventual-consistency.md`](eventual-consistency.md) | Done |
-| Messaging | — | Backlog (see [`messaging/`](../messaging/README.md)) |
+| Messaging | — | Covered in [`messaging/`](../messaging/README.md) |
 
 Working implementations of these patterns (Kafka/RabbitMQ, retries, DLQ, sagas) live in
 [`distributed-systems-playground`](https://github.com/Fragudev/distributed-systems-playground),
