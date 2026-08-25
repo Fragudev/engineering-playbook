@@ -1,0 +1,37 @@
+CONTRIBUTING.md
+  s_56f2600962803a::t_ac117b86da2fbe 57
+adr/README.md
+  s_56f2600962803a::t_b3f88971cd5254 10
+scripts/verify-content.js
+  s_56f2600962803a::t_3b29bef6cad934 66-84,168-173,177-188,192-198
+README.md
+  s_222fea55b82233::t_96c4ef99b627a7 10,13-14
+adr/0003-cross-reference-status.md
+  s_222fea55b82233::t_c41967dc1ac0e1 1-90
+distributed-systems/README.md
+  s_222fea55b82233::t_ef83ed76b57c17 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "dae6e2630ef810209d1f1f23646e0fe047723573",
+  "prompts": {},
+  "sessions": {
+    "s_222fea55b82233": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9814de7e-05c3-45d9-8870-f7d6c297ac89",
+        "model": "unknown"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    },
+    "s_56f2600962803a": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0379e-e41f-7ad0-a115-a06f42d0ec84",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "Francis Gutiérrez <francisge@ext.inditex.com>"
+    }
+  }
+}
