@@ -64,9 +64,10 @@ write path maintains to keep them in sync.
   staleness even for data that changes rarely. Explicit invalidation minimizes staleness but adds a
   real coupling: every write path touching cached data now has an additional responsibility (find and
   invalidate the right cache keys), and a write path that's added later without that responsibility
-  in mind is a silent staleness bug waiting to happen. A reasonable default: TTL for data where a
-  short staleness window is genuinely acceptable, explicit invalidation layered on top only for the
-  specific keys where staleness has real cost.
+  in mind is a silent staleness bug waiting to happen. I'd default to TTL alone and add explicit
+  invalidation only for the specific keys where staleness has a named cost — every key given
+  explicit invalidation is a permanent obligation on every write path that touches it, and paying
+  that on keys where a short stale window was always acceptable buys nothing.
 - **Caching computed/aggregated results vs raw rows.** Caching a raw row is simple to invalidate (one
   write, one cache key). Caching a computed or aggregated result (a count, a joined view) is more
   valuable per cache hit but harder to invalidate correctly, since the computation can depend on

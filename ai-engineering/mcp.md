@@ -70,8 +70,9 @@ inherently-external one — from being conflated into one control that fits neit
   every MCP-client call adds friction even on servers that turn out reliable and benign; reusing the
   internal gate is frictionless but leaves the very first call — nothing untrusted in context yet —
   completely ungated for a tool outside the application's control. Given the cost of under-gating
-  here is a call to an unreviewed external process, unconditional confirmation is the right default
-  until there's a specific, evaluated reason to trust a given server enough to relax it.
+  here is a call to an unreviewed external process, I'd gate every MCP-client tool unconditionally
+  and accept the friction, relaxing it only for a specific server someone has actually evaluated —
+  not as a blanket default once external tools stop feeling novel.
 - **Federating (re-exposing pulled-in client tools through your own server) vs not.** Federation
   grows the server's surface automatically, but means every consumer of your server implicitly
   trusts a third party's tool through you, without you having decided what that vouching means.

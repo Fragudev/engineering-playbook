@@ -69,8 +69,10 @@ first place.
 - **Reject vs queue when the pool is full.** Rejecting immediately once the pool and its queue are
   full gives an instant, predictable failure the caller can act on (retry later, degrade). A larger
   queue absorbs short bursts without rejecting anything, at the cost of every queued request
-  accumulating latency that compounds if the dependency stays slow — a queue sized for bursts, not
-  for sustained overload, is usually the right default.
+  accumulating latency that compounds if the dependency stays slow. I'd size the queue for the
+  burst I actually expect and no further: a queue deep enough to ride out sustained overload only
+  converts a fast, actionable rejection into a slow one, which is the worse failure for a caller
+  that still has its own timeout to answer to.
 
 ## Failure modes
 
